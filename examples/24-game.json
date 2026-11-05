@@ -1,0 +1,17 @@
+{
+  "size": "16:9",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "游戏里的好设计",
+        "藏在操作反馈里"
+      ],
+      "subtitle": "规则 反馈 节奏",
+      "visual": {
+        "icon": "game"
+      },
+      "panel": "black"
+    }
+  ]
+}

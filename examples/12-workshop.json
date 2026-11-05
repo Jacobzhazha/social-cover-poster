@@ -1,0 +1,17 @@
+{
+  "size": "9:16",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "周末创作时间",
+        "一起做张",
+        "自己的海报"
+      ],
+      "subtitle": "从一句话到一张图",
+      "visual": {
+        "icon": "palette"
+      }
+    }
+  ]
+}

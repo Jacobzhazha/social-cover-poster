@@ -1,0 +1,17 @@
+{
+  "size": "3:4",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "散落的老照片",
+        "按时间整理",
+        "把故事留下来"
+      ],
+      "subtitle": "人物 时间 地点",
+      "visual": {
+        "icon": "family"
+      }
+    }
+  ]
+}

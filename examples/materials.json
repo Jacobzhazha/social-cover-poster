@@ -1,0 +1,170 @@
+{
+  "01-ai-weekly": {
+    "name": "AI 周报图文",
+    "name_en": "AI weekly workflow",
+    "source_material": "一套五页的 AI 周报工作流图文：先整理本周进展，再提取结果，最后人工核对。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的一套图文。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 5
+  },
+  "02-coffee": {
+    "name": "周末咖啡方图",
+    "name_en": "Weekend coffee",
+    "source_material": "一张周末手冲咖啡主题方图，不含价格、门店或活动承诺。",
+    "request": "用封面海报生成器，把以下材料做成 1:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "03-travel": {
+    "name": "旅行准备图文",
+    "name_en": "Travel checklist",
+    "source_material": "四页旅行准备清单：整理证件、行李、路线和出发前检查，不涉及真实航班或预订。",
+    "request": "用封面海报生成器，把以下材料做成 9:16 的一套图文。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 4
+  },
+  "04-pet": {
+    "name": "宠物相册封面",
+    "name_en": "Pet photo album",
+    "source_material": "宠物相册主题封面，展示照片整理场景。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "05-study": {
+    "name": "学习计划封面",
+    "name_en": "Study planner",
+    "source_material": "学习计划主题封面：将目标拆成每日任务。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "06-desk": {
+    "name": "桌面整理公众号封面",
+    "name_en": "Organized desk",
+    "source_material": "公众号横版封面，讲桌面整理的三个区域：常用、收纳、留白。",
+    "request": "用封面海报生成器，把以下材料做成 2.35:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "07-video": {
+    "name": "视频剪辑横版封面",
+    "name_en": "Video editing",
+    "source_material": "视频剪辑主题横版封面：先整理素材，再搭建时间线。",
+    "request": "用封面海报生成器，把以下材料做成 16:9 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "08-plant": {
+    "name": "习惯养成方图",
+    "name_en": "Growing a habit",
+    "source_material": "把小习惯比作浇水，不写成长速度或效果承诺。",
+    "request": "用封面海报生成器，把以下材料做成 1:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "09-skills": {
+    "name": "Skill 仓库封面",
+    "name_en": "Agent skills",
+    "source_material": "介绍可复用的 Agent Skills 与实际使用场景。",
+    "request": "用封面海报生成器，把以下材料做成 2.35:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "10-podcast": {
+    "name": "播客视频封面",
+    "name_en": "Podcast notes",
+    "source_material": "播客内容整理：从长音频中整理观点与行动项。",
+    "request": "用封面海报生成器，把以下材料做成 16:9 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "11-reading": {
+    "name": "读书笔记图文",
+    "name_en": "Reading notes",
+    "source_material": "四页读书笔记：记录问题、整理观点、连接例子和下一步实践。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的一套图文。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 4
+  },
+  "12-workshop": {
+    "name": "创作活动手机海报",
+    "name_en": "Creative workshop",
+    "source_material": "创作工作坊主题海报，不使用虚构的活动日期、报名入口和价格。",
+    "request": "用封面海报生成器，把以下材料做成 9:16 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "13-recipe": {
+    "name": "家常菜方图",
+    "name_en": "Home cooking",
+    "source_material": "家常菜主题内容封面。",
+    "request": "用封面海报生成器，把以下材料做成 1:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "14-resume": {
+    "name": "简历改写封面",
+    "name_en": "Resume writing",
+    "source_material": "简历写作主题：按任务、行动和结果整理经历。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "15-privacy": {
+    "name": "隐私保护横图",
+    "name_en": "Privacy basics",
+    "source_material": "上传资料前检查个人信息与分享范围。",
+    "request": "用封面海报生成器，把以下材料做成 16:9 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "16-calendar": {
+    "name": "每周计划手机海报",
+    "name_en": "Weekly planning",
+    "source_material": "每周任务计划，区分重要任务、固定安排和弹性时间。",
+    "request": "用封面海报生成器，把以下材料做成 9:16 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "17-shopping": {
+    "name": "购物清单封面",
+    "name_en": "Shopping checklist",
+    "source_material": "购物前按需求、预算和已有物品整理清单。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "18-image-input": {
+    "name": "已有素材重排",
+    "name_en": "Existing image layout",
+    "source_material": "复用案例 02 的咖啡场景原图，通过 visual.image 测试已有素材的完整显示。",
+    "request": "用封面海报生成器，把以下材料做成 1242x1660 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "19-type-only": {
+    "name": "纯文字方图",
+    "name_en": "Typography only",
+    "source_material": "不使用主视觉的纯文字封面。",
+    "request": "用封面海报生成器，把以下材料做成 1:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "20-english": {
+    "name": "英文内容封面",
+    "name_en": "English cover",
+    "source_material": "英文标题排版示例。",
+    "request": "用封面海报生成器，把以下材料做成 16:9 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "21-fitness": {
+    "name": "运动计划封面",
+    "name_en": "Movement routine",
+    "source_material": "日常运动主题，不包含医疗、减重数字或效果承诺。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "22-music": {
+    "name": "工作歌单方图",
+    "name_en": "Focus playlist",
+    "source_material": "工作歌单主题：纯音乐、轻节奏、少干扰。",
+    "request": "用封面海报生成器，把以下材料做成 1:1 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "23-family": {
+    "name": "家庭照片封面",
+    "name_en": "Family photo collection",
+    "source_material": "家庭照片整理主题：按时间与事件分类。",
+    "request": "用封面海报生成器，把以下材料做成 3:4 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  },
+  "24-game": {
+    "name": "游戏笔记横图",
+    "name_en": "Game design notes",
+    "source_material": "游戏设计笔记主题：记录规则、反馈和操作体验。",
+    "request": "用封面海报生成器，把以下材料做成 16:9 的封面。内容见本案例 JSON，保留分行，输出 PNG。",
+    "page_count": 1
+  }
+}

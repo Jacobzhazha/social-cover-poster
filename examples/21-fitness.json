@@ -1,0 +1,17 @@
+{
+  "size": "3:4",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "久坐之后",
+        "起来动一动",
+        "给身体换个姿势"
+      ],
+      "subtitle": "从散步和伸展开始",
+      "visual": {
+        "icon": "fitness"
+      }
+    }
+  ]
+}

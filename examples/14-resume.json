@@ -1,0 +1,17 @@
+{
+  "size": "3:4",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "简历别堆词",
+        "把工作经历",
+        "写成具体结果"
+      ],
+      "subtitle": "任务 行动 结果",
+      "visual": {
+        "icon": "briefcase"
+      }
+    }
+  ]
+}

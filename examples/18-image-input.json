@@ -1,0 +1,17 @@
+{
+  "size": "1242x1660",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "同一张素材",
+        "换个尺寸",
+        "继续用"
+      ],
+      "subtitle": "已有图片完整展示",
+      "visual": {
+        "image": "../assets/scenes/02-coffee.png"
+      }
+    }
+  ]
+}

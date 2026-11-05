@@ -1,0 +1,17 @@
+{
+  "size": "1:1",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "周末慢一点",
+        "给自己",
+        "冲一杯咖啡"
+      ],
+      "subtitle": "从磨豆到注水",
+      "visual": {
+        "image": "../assets/scenes/02-coffee.png"
+      }
+    }
+  ]
+}

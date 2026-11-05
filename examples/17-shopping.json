@@ -1,0 +1,18 @@
+{
+  "size": "3:4",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "购物之前",
+        "先写清单",
+        "再决定买什么"
+      ],
+      "subtitle": "需求 预算 已有物品",
+      "visual": {
+        "icon": "cart"
+      },
+      "panel": "yellow"
+    }
+  ]
+}

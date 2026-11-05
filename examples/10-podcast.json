@@ -1,0 +1,16 @@
+{
+  "size": "16:9",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "听完一集播客",
+        "留下三个问题"
+      ],
+      "subtitle": "观点 依据 行动",
+      "visual": {
+        "icon": "mic"
+      }
+    }
+  ]
+}

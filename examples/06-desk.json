@@ -1,0 +1,15 @@
+{
+  "size": "2.35:1",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "桌面整理",
+        "从常用区开始"
+      ],
+      "visual": {
+        "image": "../assets/scenes/06-desk.png"
+      }
+    }
+  ]
+}

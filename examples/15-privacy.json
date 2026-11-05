@@ -1,0 +1,17 @@
+{
+  "size": "16:9",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "上传资料之前",
+        "先看这些信息"
+      ],
+      "subtitle": "姓名 联系方式 分享范围",
+      "visual": {
+        "icon": "shield"
+      },
+      "panel": "black"
+    }
+  ]
+}

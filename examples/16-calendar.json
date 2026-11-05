@@ -1,0 +1,17 @@
+{
+  "size": "9:16",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "一周怎么安排",
+        "重要的事情",
+        "先留出时间"
+      ],
+      "subtitle": "任务 日程 弹性时间",
+      "visual": {
+        "icon": "calendar"
+      }
+    }
+  ]
+}

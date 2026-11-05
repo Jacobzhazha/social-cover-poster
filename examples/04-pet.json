@@ -1,0 +1,17 @@
+{
+  "size": "3:4",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "手机里的猫",
+        "做成一本",
+        "毛孩子相册"
+      ],
+      "subtitle": "把日常留成纪念",
+      "visual": {
+        "image": "../assets/scenes/04-pet.png"
+      }
+    }
+  ]
+}

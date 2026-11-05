@@ -1,0 +1,16 @@
+{
+  "size": "16:9",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "BUILD WITH AI",
+        "SHIP SMALL TOOLS"
+      ],
+      "subtitle": "Start with one useful task",
+      "visual": {
+        "icon": "rocket"
+      }
+    }
+  ]
+}

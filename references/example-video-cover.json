@@ -1,0 +1,13 @@
+{
+  "size": "16:9",
+  "pages": [
+    {
+      "type": "cover",
+      "title": ["三分钟学会", "用AI做表格"],
+      "highlight": 2,
+      "subtitle": "零基础，跟着做就行",
+      "panel": "black",
+      "visual": {"icon": "chart"}
+    }
+  ]
+}

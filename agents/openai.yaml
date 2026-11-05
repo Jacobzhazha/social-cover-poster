@@ -1,0 +1,4 @@
+interface:
+  display_name: "封面海报生成器"
+  short_description: "把主题或文字做成清爽大字封面、海报和整套图文，支持多种尺寸并导出 PNG"
+  default_prompt: "用 $social-cover-poster 把我的主题做成封面海报，先整理文案，再生成主视觉并导出 PNG。"

@@ -1,0 +1,18 @@
+{
+  "size": "1:1",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "开始专注之前",
+        "先选一份",
+        "自己的歌单"
+      ],
+      "subtitle": "纯音乐 轻节奏 少干扰",
+      "visual": {
+        "icon": "music"
+      },
+      "panel": "paper"
+    }
+  ]
+}

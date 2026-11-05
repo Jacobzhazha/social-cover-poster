@@ -1,0 +1,16 @@
+{
+  "size": "16:9",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "视频剪辑",
+        "先理好素材"
+      ],
+      "visual": {
+        "scene": "一把圆润的蓝色剪刀把一段散开的电影胶片整理成平整的时间线",
+        "image": "../assets/scenes/07-video.png"
+      }
+    }
+  ]
+}

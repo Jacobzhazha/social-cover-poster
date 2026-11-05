@@ -1,0 +1,213 @@
+/* 封面海报生成器的版式。所有尺寸用 --u 换算：竖版和方图 --u = 宽/1080，横图 --u = 高/880 */
+:root {
+  --blue: #315cff;
+  --yellow: #dfff45;
+  --ink: #141519;
+  --gray: #62666e;
+  --paper: #f6f4ed;
+  --rule: #dcd9cf;
+  --display: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  --mono: "SF Mono", Menlo, Consolas, "Courier New", monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--paper); }
+.page {
+  position: relative;
+  width: var(--w);
+  height: var(--h);
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--display);
+  -webkit-font-smoothing: antialiased;
+}
+.line, .badge-main, .plabel {
+  font-weight: 800;
+  -webkit-text-stroke: calc(var(--u) * 2.2) currentColor;
+  paint-order: stroke fill;
+}
+.fit { white-space: nowrap; }
+.fit > span { display: inline-block; }
+.hl { color: var(--blue); }
+
+/* ---------- 封面 ---------- */
+.cover .title-group { --k: 1; }
+.cover .line {
+  font-size: calc(var(--u) * 92 * var(--k) * var(--s, 1));
+  line-height: 1.12;
+}
+.cover .line + .line { margin-top: calc(var(--u) * 12 * var(--k)); }
+.cover .subtitle {
+  margin-top: calc(var(--u) * 34 * var(--k));
+  border-left: calc(var(--u) * 8) solid var(--yellow);
+  padding-left: calc(var(--u) * 24);
+  font-size: calc(var(--u) * 46 * var(--k) * var(--ss, 1));
+  line-height: 1.15;
+  font-weight: 500;
+}
+.hero {
+  position: relative;
+  container-type: size;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: calc(var(--u) * 12);
+  background: var(--stripe, var(--yellow));
+  z-index: 2;
+}
+.hero .icon {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(56cqw, 60cqh);
+  height: min(56cqw, 60cqh);
+}
+.hero .pic {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 88%;
+  height: 86%;
+  object-fit: contain;
+}
+.hero .pic.cover { width: 100%; height: 100%; object-fit: cover; }
+
+/* 竖版：主视觉在上，标题在下 */
+.tall.cover.with-hero {
+  display: flex;
+  flex-direction: column;
+  padding-top: calc(var(--h) * 0.078);
+  padding-bottom: calc(var(--h) * 0.17);
+}
+.square.cover.with-hero {
+  display: flex;
+  flex-direction: column;
+  padding-top: calc(var(--u) * 64);
+  padding-bottom: calc(var(--u) * 96);
+}
+.tall.cover.with-hero .hero, .square.cover.with-hero .hero { flex: 1 1 auto; min-height: 0; }
+.tall.cover .title-group, .square.cover .title-group {
+  margin-top: calc(var(--u) * 70);
+  padding: 0 calc(var(--u) * 40) 0 calc(var(--u) * 64);
+  flex: none;
+}
+/* 没有主视觉：标题放大，垂直居中 */
+.cover.no-hero { display: flex; flex-direction: column; justify-content: center; }
+.cover.no-hero .title-group { --k: 1.18; margin-top: 0; padding: 0 calc(var(--u) * 64) calc(var(--u) * 40); }
+
+/* 横图：标题在左，主视觉在右 */
+.wide.cover.with-hero { display: grid; grid-template-columns: 58% 42%; }
+.wide.cover.with-hero .hero { order: 2; }
+.wide.cover.with-hero .title-group {
+  align-self: center;
+  padding: 0 calc(var(--u) * 48) 0 calc(var(--u) * 80);
+  min-width: 0;
+}
+.wide.cover.no-hero .title-group { padding: 0 calc(var(--u) * 100); }
+
+/* 生图场景：不加底板、不加竖条，图片铺满并对齐右下角（保留生成图右下角的标识） */
+.hero.scene::before { display: none; }
+.hero .pic.scene { width: 100%; height: 100%; object-fit: cover; object-position: 100% 100%; }
+/* 用户自己的图：同样不加底板，放在暖白底上（默认完整显示，fit: cover 时铺满） */
+.wide .hero.photo::after { display: none; }
+
+/* 横图配生图场景：左边两行大字，场景从标题右边铺到画布边，左缘渐变过渡。--uw = 宽/1800 */
+.wide.cover.scene-hero { display: block; }
+.wide.cover.scene-hero .title-group {
+  position: absolute;
+  left: calc(var(--uw) * 128);
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(var(--w) * 0.6333 - var(--uw) * 172);
+  padding: 0;
+}
+.wide.cover.scene-hero .line {
+  font-size: calc(var(--uw) * 128 * var(--s, 1));
+  line-height: 1.18;
+  letter-spacing: calc(var(--uw) * -1);
+  -webkit-text-stroke: calc(var(--uw) * 2.6) currentColor;
+}
+.wide.cover.scene-hero .line + .line { margin-top: calc(var(--uw) * 18); }
+.wide.cover.scene-hero .subtitle {
+  margin-top: calc(var(--uw) * 34);
+  border-left-width: calc(var(--uw) * 8);
+  padding-left: calc(var(--uw) * 24);
+  font-size: calc(var(--uw) * 50 * var(--ss, 1));
+}
+.wide.cover.scene-hero .hero { position: absolute; top: 0; right: 0; bottom: 0; left: var(--scene-left, 63.33%); }
+.wide .hero.scene::after {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 16%;
+  background: linear-gradient(to right, rgba(246, 244, 237, 1) 0%, rgba(246, 244, 237, .75) 35%, rgba(246, 244, 237, 0) 100%);
+  z-index: 2;
+}
+
+/* ---------- 内页 ---------- */
+.content-group {
+  position: absolute;
+  left: calc(var(--u) * 64);
+  right: calc(var(--u) * 64);
+  top: calc(var(--u) * 48);
+  bottom: calc(var(--u) * 80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .line {
+  font-size: calc(var(--u) * 84 * var(--s, 1));
+  line-height: 1.08;
+}
+.cbody { margin-top: calc(var(--u) * 48); }
+.cbody > * + * { margin-top: calc(var(--u) * 40); }
+.lead {
+  font-size: calc(var(--u) * 44);
+  line-height: 1.45;
+  color: var(--gray);
+}
+.badge {
+  background: var(--blue);
+  border-left: calc(var(--u) * 12) solid var(--yellow);
+  padding: calc(var(--u) * 20) calc(var(--u) * 44);
+  color: #fff;
+}
+.badge > span { display: inline-flex; align-items: baseline; gap: calc(var(--u) * 32); }
+.badge-main { font-size: calc(var(--u) * 120 * var(--s, 1)); line-height: 1.12; }
+.badge-note { font-size: calc(var(--u) * 44 * var(--s, 1)); }
+.points { display: grid; grid-template-columns: 1fr; }
+.points.labeled { grid-template-columns: max-content 1fr; }
+.plabel, .ptext { padding: calc(var(--u) * 30) 0; line-height: 1.4; }
+.plabel { color: var(--blue); font-size: calc(var(--u) * 46); padding-right: calc(var(--u) * 56); }
+.ptext { font-size: calc(var(--u) * 44); }
+.ptext, .lead { text-wrap: pretty; }
+.points.labeled > :nth-child(n + 3), .points:not(.labeled) > :nth-child(n + 2) { border-top: calc(var(--u) * 2) solid var(--rule); }
+.points > :first-child, .points.labeled > :nth-child(2) { padding-top: 0; }
+
+/* 横图内页：标题在左，内容在右 */
+.wide .content-group {
+  left: calc(var(--u) * 80);
+  right: calc(var(--u) * 80);
+  display: grid;
+  grid-template-columns: 44% 1fr;
+  column-gap: calc(var(--u) * 80);
+  align-items: center;
+}
+.wide .ctitle, .wide .cbody { min-width: 0; }
+.wide .cbody { margin-top: 0; }
+
+/* ---------- 页码和落款 ---------- */
+.pnum, .sign {
+  position: absolute;
+  bottom: calc(var(--u) * 24);
+  font: calc(var(--u) * 25) / 1 var(--mono);
+  color: var(--gray);
+}
+.pnum { left: calc(var(--u) * 64); }
+.sign { right: calc(var(--u) * 64); font-family: var(--display); }
+.wide .pnum { left: calc(var(--u) * 80); }
+.wide.cover.with-hero .sign { right: auto; left: calc(58% - var(--u) * 48); transform: translateX(-100%); }
+/* 落款不放进场景，避免挡住右下角的标识 */
+.wide.cover.scene-hero .sign { left: calc(var(--scene-left, 63.33%) - var(--uw) * 44); }

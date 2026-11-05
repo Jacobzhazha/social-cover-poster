@@ -1,0 +1,17 @@
+{
+  "size": "3:4",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "想学的太多",
+        "先拆成",
+        "每天的小任务"
+      ],
+      "subtitle": "让计划有落点",
+      "visual": {
+        "image": "../assets/scenes/05-study.png"
+      }
+    }
+  ]
+}

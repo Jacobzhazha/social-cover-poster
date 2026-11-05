@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "01-ai-weekly",
+    "size": "1536x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一个蓝色文件夹小人把散开的工作卡片整理进一份整齐的周报. No words, letters, numbers or logos in the image. Composition: the left 0% and the top 18% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/01-ai-weekly.png"
+  },
+  {
+    "slug": "02-coffee",
+    "size": "1536x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一只圆润的蓝色手冲壶正在向白色滤杯注水 下方一只蓝色咖啡杯接住咖啡. No words, letters, numbers or logos in the image. Composition: the left 0% and the top 40% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/02-coffee.png"
+  },
+  {
+    "slug": "03-travel",
+    "size": "1024x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一个带轮子的蓝色小行李箱正在把一张折叠地图装进侧袋. No words, letters, numbers or logos in the image. Composition: the left 0% and the top 12% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/03-travel.png"
+  },
+  {
+    "slug": "04-pet",
+    "size": "1536x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一只圆滚滚的白色小猫用爪子把一张自己的照片放进蓝色相册. No words, letters, numbers or logos in the image. Composition: the left 0% and the top 18% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/04-pet.png"
+  },
+  {
+    "slug": "05-study",
+    "size": "1536x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一本蓝色书本小人把一张长长的任务纸折成三张整齐的小卡片. No words, letters, numbers or logos in the image. Composition: the left 0% and the top 18% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/05-study.png"
+  },
+  {
+    "slug": "06-desk",
+    "size": "1536x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一盏蓝色圆润台灯把一支笔照亮 笔被放进整齐的白色笔筒. No words, letters, numbers or logos in the image. Composition: the left 25% and the top 0% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. The left edge of the shown area fades softly into the warm ivory background. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/06-desk.png"
+  },
+  {
+    "slug": "07-video",
+    "size": "1024x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一把圆润的蓝色剪刀把一段散开的电影胶片整理成平整的时间线. No words, letters, numbers or logos in the image. Composition: the whole image is shown; center the subject. The left edge of the shown area fades softly into the warm ivory background. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/07-video.png"
+  },
+  {
+    "slug": "08-plant",
+    "size": "1536x1024",
+    "quality": "high",
+    "prompt": "Cute matte 3D toy style, soft studio lighting, rounded chunky shapes, clean premium editorial render. Palette: brand blue #315cff, signal yellow-green #dfff45, warm ivory #f6f4ed, ink black #141519, small mint #56e69c accents only. Every object uses only these colors (plus white and soft gray shadows); no pink, red, orange, purple or brown, except inside real product logos. Seamless light warm ivory background or brand-blue surfaces. One small scene with one clear focal action; the subject is big and fills the shown area, easy to read as a small phone thumbnail. No photo realism, no flat vector icons, no glass, no glow, no neon, no gradient background, no border or frame, no poster layout, no headline text. Scene: 一个蓝色小浇水壶向白色花盆里的薄荷绿色小芽浇水. No words, letters, numbers or logos in the image. Composition: the left 0% and the top 40% of the image will be cropped off. Keep the whole subject inside the remaining area and center it there. Keep the bottom-right corner plain, without important details.",
+    "image": "../assets/scenes/08-plant.png"
+  }
+]

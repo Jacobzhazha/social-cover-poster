@@ -1,0 +1,17 @@
+{
+  "size": "1:1",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "新的小习惯",
+        "每天做一点",
+        "慢慢长出来"
+      ],
+      "subtitle": "从一件小事开始",
+      "visual": {
+        "image": "../assets/scenes/08-plant.png"
+      }
+    }
+  ]
+}

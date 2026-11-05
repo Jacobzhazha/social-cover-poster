@@ -1,0 +1,15 @@
+{
+  "size": "2.35:1",
+  "pages": [
+    {
+      "type": "cover",
+      "title": [
+        "把常用流程",
+        "做成 AI 技能"
+      ],
+      "visual": {
+        "icon": "code"
+      }
+    }
+  ]
+}
